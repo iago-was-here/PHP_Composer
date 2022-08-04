@@ -1,0 +1,25 @@
+{
+    "name": "iago-was-here/curso-composer-son",
+    "description": "Pacote de exemplo do curso de composer da School of Net",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "IagoWasHere\\CursoComposerSon\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Iago Ananias Silva",
+            "email": "iago.ananias@bmstecnologia.com.br"
+        }
+    ],
+    "autoload":{
+        "psr-4": {
+            "Teste\\CursoSON\\" : "src"
+        }
+    },
+    "require": {
+        "monolog/monolog": "^2.8"
+    }
+}
